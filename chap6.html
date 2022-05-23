@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chapter 6 to 9</title>
+</head>
+<body>
+    <script>
+        //Q1
+        document.write("<h1>Q1</h1>")
+        let num = parseInt(5);
+        document.write('Value of a is ', num, "<br>")
+        document.write('Value of a++ is ', ++num, "<br>")
+        document.write('Value of a++ is ', ++num, "<br>")
+        document.write('Value of a-- is ', --num, "<br>")
+        document.write('Value of a-- is ', --num, "<br>")
+
+        //Q2
+        document.write("<h1>Q2</h1>")
+        var a = parseInt(2);
+        var b = parseInt(1);
+        document.write("a is ", a, " b is ", b, "<br>")
+        var result = --a - --b + ++b + b--;
+        document.write("--a decrements a by 1 <br>")
+        document.write("--a decrements a by 1 and subtracts it after decrementing b <br>")
+        document.write("adds the result of previous expression to increment of b <br>")
+        document.write("adds the result of previous expression to decrement of b<br>")
+        document.write("result is ", result)
+        //Q3
+        document.write("<h1>Q3</h1>")
+        let name = prompt('Whats your name?')
+        document.write("Hello ", name)
+        // //Q5
+        document.write("<h1>Q5</h1>")
+        let numb = prompt('Enter a number', 5)
+        for (let i = 0; i < 11; i++) {
+            document.write(numb, "x" + i + "=" + numb * i + "<br>");
+        }
+        //Q6
+        document.write("<h1>Q6</h1>")
+        const s1 = prompt("Enter 1st subject","Maths");
+        const s2 = prompt("Enter 2nd subject","Biology");
+        const s3 = prompt("Enter 3rd subject","History");
+        const totmarks = 100;
+        const s1m = parseInt(prompt("Enter marks in 1st subject"));
+        const s2m = parseInt(prompt("Enter marks in 2nd subject"));
+        const s3m = parseInt(prompt("Enter marks in 3rd subject"));
+        const per1 = (s1m / totmarks) * 100
+        const per2 = (s2m / totmarks) * 100
+        const per3 = (s3m / totmarks) * 100
+        document.write(" <tr><td><h4>Subject  </h4></td><td><h4>T.Marks  </h4></td><td><h4>Obt.Marks  </h4></td><td><h4>Per</h4></td><tr><br><td>", s1, "</td><td>", "&nbsp&nbsp&nbsp&nbsp&nbsp",totmarks, "</td><td>", "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp", s1m, "</td><td>","&nbsp&nbsp&nbsp&nbsp&nbsp", per1, "</td></tr><br>")
+        document.write(s2, "</td><td>", "&nbsp&nbsp&nbsp&nbsp&nbsp",totmarks, "</td><td>", "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp", s2m, "</td><td>","&nbsp&nbsp&nbsp&nbsp&nbsp", per2,"<br>")
+        document.write(s3, "</td><td>", "&nbsp&nbsp&nbsp&nbsp&nbsp",totmarks, "</td><td>", "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp", s3m, "</td><td>","&nbsp&nbsp&nbsp&nbsp&nbsp", per3,"<br>")
+        document.write("</td><td>", "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp",totmarks*3, "</td><td>", "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp", s1m+s2m+s3m, "</td><td>","&nbsp&nbsp&nbsp&nbsp&nbsp", (s1m+s2m+s3m)/3)
+        </script>
+        <br><br><a href="./index.html">Home</a>
+        <h1>CHAPTER 6 to 9</h1>
+</body>
+</html>

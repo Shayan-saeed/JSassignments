@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chapter 5</title>
+</head>
+<body>
+    <script>
+        document.write("<h1>Q1 & 2</h1>")
+        const num1=prompt('Enter 1st number');
+        const num2=prompt('Enter 2nd number');
+        const sum=(parseInt(num1)+parseInt(num2))
+        document.write("Sum of "+ num1+" and "+num2+" is "+sum+"<br>");
+        const product=(parseInt(num1)*parseInt(num2))
+        document.write("Product of "+ num1+" and "+num2+" is "+product+"<br>");
+        const divi=(parseInt(num1)/parseInt(num2))
+        document.write("Division of "+ num1+" by "+num2+" is "+divi+"<br>");
+        const mod=(parseInt(num1)%parseInt(num2))
+        document.write("Mod of "+ num1+" and "+num2+" is "+sum+"<br>");
+//Q3    
+        document.write("<h1>Q3</h1>")
+        let myvar=4;
+        document.write("initital value: "+myvar+"<br>")
+        myvar=++myvar
+        document.write("value after increment: "+myvar+"<br>")
+        myvar=myvar+7
+        document.write("value after adding 7: "+myvar+"<br>")
+        myvar=--myvar
+        document.write("value after decrement 7: "+myvar+"<br>")
+        myvar=myvar%13
+        document.write("Remainder after dividing my 13: "+myvar+"<br>")
+//Q4
+        document.write("<h1>Q4</h1>")
+        let ticket=800;
+        document.write("Cost of buying 5 movie tickets is "+ticket*5)
+        document.write("<br>")
+//Q5
+        document.write("<h1>Q5</h1>")
+        document.write("Table of 5")
+        let num=5;
+        document.write("<br>")
+        for (let i = 0; i < 11; i++) {
+	    document.write("5x"+i+"="+num*i+"<br>")  ;
+        }
+        document.write("<br>")
+//Q6
+        document.write("<h1>Q6</h1>")
+        let C=45;
+        let F=((C*9)/5)+32;
+        let f=100;
+        let c=((f-32)*5)/9
+        document.write(C+"C in Farenheit is "+F)
+        document.write("<br>")
+        document.write(f+"F in Celsius is "+c)
+        document.write("<br>")
+//Q7
+        document.write("<h1>Shipping Cart (Q7)</h1>")
+        let p1=parseInt(250);
+        let p2=parseInt(150);
+        let q1=parseInt(3);
+        let q2=parseInt(5);
+        let shipchgs=parseInt(200);
+        document.write('The cost of '+q1+" shirts is "+p1*q1+" and the cost of "+q2+" pants is "+p2*q2)
+        document.write("<br>")
+        document.write('Total cost including shipping charges is ',parseInt(750)+(shipchgs))
+ //Q8
+        document.write("<h1>Q8</h1>")
+        let tmarks=900;
+        let omarks=825;
+        let per=(omarks/tmarks)*100
+        document.write("Total marks: ",tmarks ,"<br>")
+        document.write("Obtained marks: ",omarks,"<br>")
+        document.write("Percentage: ",per)
+//Q9
+        document.write("<h1>Q9</h1>")
+        let usd=parseFloat(104.8);
+        let sar=parseFloat(28);
+        document.write("Total currenct in PKR: ",(10*usd)+(25*sar))
+//Q10
+        document.write("<h1>Q10</h1>")
+        let num3=parseInt(5);
+        document.write(((num3+5)*10)/2)
+//Q11
+        document.write("<h1>Q11</h1>")
+        let cyear=parseInt(2022);
+        let byear=parseInt(2002);
+        document.write("You will be " + (cyear-byear)+" in 2022")
+
+//Q12
+        document.write("<h1>Q12</h1>")
+        let r=parseFloat(8);
+        let pie=parseFloat(3.14);
+        document.write("Radius is ",r ,"<br>")
+        document.write("Circumference is ", 2*pie*r,"<br>")
+        document.write("Area is ", pie*r**2)
+//Q13
+        document.write("<h1>Q13</h1>")       
+        let favsnack="Kit-Kat"
+        let age=20;
+        let maxage=65;
+        let perday=2;
+        document.write("Favourite snack; ",favsnack,"<br>")
+        document.write("Current age; ",age,"<br>")
+        document.write("Estimated age; ",maxage,"<br>")
+        document.write("Snack per day; ",perday,"<br>")
+        document.write("You will need ",(365*2)*(maxage-age)," kit-kats to last you till 65","<br>")
+    </script>
+    <br><br><a href="./index.html">Home</a>
+    <h1>CHAPTER 5</h1>
+</body>
+</html>
